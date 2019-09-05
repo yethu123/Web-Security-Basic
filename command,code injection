@@ -1,0 +1,18 @@
+
+
+
+>Command injection is "string to command".(;,||,&&, are used to join command.The `exec()` function is for code execution.
+>Code injection is "string to code".("." is used to join code)(`eval()` function).Using " , ' for testing.
+>Directory traversal  is  "file to code".
+>  log poison
+ - Using burp suit by replacing`<?php system($_GET[cmd]);`
+ LFI , RFI(file=www.google.com or webshell)
+
+>File inclusion `include()` function 
+ 1. Command injection`echo exec("whoami")`
+ 2.                    `system("whoiam")`
+ 3. Blind command injection`exec("whoami")`
+ 4. [command payload](https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Command%20Injection)
+ 5. Searching
+            Regular expression security cheatsheet
+
