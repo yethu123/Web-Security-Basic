@@ -9,7 +9,7 @@ understand
 
 
  - Command injection is "string to command".(;,||,&&, are used to join command.The `exec()` function is for code execution.
- - Code injection is "string to code".("." is used to join code)(`eval()` function).Using " , ' for testing.
+ - Code injection is "string to code".("." is used to join code)(`eval("echo "....)` function).Using " , ' for testing.
  - Directory traversal  is  "file to code".
  -  log poison
  - Using burp suit by replacing`<?php system($_GET[cmd]);`
