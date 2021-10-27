@@ -121,7 +121,7 @@ Server Side Request Forgery(SSRF)
  
 XSS
 --
- 1. Cookies can be stole.
+ 1. Cookies can be stolen.
  2. Java script execution 
  3. Advanced handler like
  4. Obfuscation
