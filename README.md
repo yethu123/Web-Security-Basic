@@ -32,7 +32,7 @@ Tactic for WEB security
 
     https://github.com/ngalongc/bug-bounty-reference
 
-**Reference**
-[Payload](https://github.com/swisskyrepo/PayloadsAllTheThings)
-https://github.com/LunaM00n/Free-WebSec-Class/
+**Reference** <br/>
+- [Payloads_All_ Things](https://github.com/swisskyrepo/PayloadsAllTheThings) <br/>
+- https://github.com/LunaM00n/Free-WebSec-Class/
 
